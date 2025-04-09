@@ -1,4 +1,5 @@
 import css from "./Header.module.css";
+// import img1 from '../../public/img1.jpg';
 
 
 
@@ -6,12 +7,11 @@ export default function Header(){
 
     return (
         <>
-        <div>
-          <img src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-01/b07e3a20-33e2-11eb-b5e9-cb6d63d43724.jp" alt="" />
+        <div className={css.header1}>
+          {/* <img className={css.image} src={img1} alt="" /> */}
   
         </div>
-        
-        <div className={css.header}>HEADER</div>
+     
         </>
     )
 }
