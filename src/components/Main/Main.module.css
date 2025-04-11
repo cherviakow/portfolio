@@ -28,6 +28,13 @@
 }
 
 .pic2{
-    width: 500px;
+    background-image: url('../../public/pic2.jpeg');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 700px;
+    width: 500px;
+  
+    
 }
