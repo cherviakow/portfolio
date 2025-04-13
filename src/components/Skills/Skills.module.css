@@ -1,18 +1,27 @@
 .skills{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     align-items: center;
+   
 }
 
 .skillsIcons{
 
+    background-image: url("../../public/plt.jpg");
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
     border: 2px solid black;
-    padding: 25px 25px 25px 25px;
+    border-radius: 12px;
+    padding: 40px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+
+ 
 
 }
 
@@ -23,9 +32,15 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
+
+
+  
   }
   
   .skillsIcons img:hover {
     transform: translateY(-8px); /* поднимается вверх */
     box-shadow: 5px 30px 5px rgba(0, 0, 0, 0.253); /* мягкая тень */
   }
+
+
+ 
