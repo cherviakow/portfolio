@@ -31,7 +31,9 @@ AOS.init({duration:2000, once:true});
 
 <div className={css.skillsIcons}   >
 
-<div data-aos="fade-left" >
+
+
+<div data-aos="fade-left" >  
 
 <img src={html} alt="html" />
         <img src={csss} alt="css" />

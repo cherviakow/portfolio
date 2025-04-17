@@ -1,46 +1,42 @@
-.skills{
-    text-align: center;
-    font-size: 50px;
-    align-items: center;
-   
+.skills {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
 }
 
-.skillsIcons{
+.skillsIcons {
+  background-image: url("../../public/plt.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
-    background-image: url("../../public/plt.jpg");
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border: 2px solid black;
-    border-radius: 12px;
-    padding: 40px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-   
 
- 
-
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .skillsIcons img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
-  
-  }
-  
-  .skillsIcons img:hover {
-    transform: translateY(-8px); /* поднимается вверх */
-    box-shadow: 5px 30px 5px rgba(0, 0, 0, 0.253); /* мягкая тень */
-  }
-
-
- 
+.skillsIcons img:hover {
+  transform: translateY(-8px); /* поднимается вверх */
+  box-shadow: 5px 30px 5px rgba(0, 0, 0, 0.253); /* мягкая тень */
+}

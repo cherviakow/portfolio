@@ -2,8 +2,40 @@
     height: 300px;
 }
 
+.contactsList{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
 .contactsHead{
     text-align: center;
     font-size: 50px;
+
 }
 
+.email{
+   font-size: 35px;
+   margin-top: 25px;
+   color: aliceblue;
+}
+
+.LinkedInIcon{
+    width: 100px;
+    height: 100px;
+    color: hsl(240, 59%, 55%);
+}
+.LinkedIn{
+    text-align: center;
+}
+
+.instIcon{
+    width: 100px;
+    height: 100px; 
+    color: rgb(177, 65, 25); 
+}
+.inst{
+    text-align: center;
+}

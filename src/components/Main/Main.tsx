@@ -22,8 +22,8 @@ return(
 
     <div className={css.pic2}></div>
    
-  
-<div className={css.mainText} data-aos="fade-left" data-aos-delay="500">Passionate and adaptable Front-end developer with a background in the arts. Long time use to live in Middle East, I can see different vision for developing and customer service. Dedicated to leveraging technology to create meaningful solutions. I thrive in dynamic environments and have a proven track record of successfully navigating and contributing to transformative periods. </div>
+
+<p className={css.mainText} data-aos="fade-left" data-aos-delay="500">Hi, I'm Ihor,<br/>Passionate and adaptable Full Stack developer with a background in the arts. Long time use to live in Middle East, I can see different vision for developing and customer service. Dedicated to leveraging technology to create meaningful solutions. I thrive in dynamic environments and have a proven track record of successfully navigating and contributing to transformative periods. </p>
 
  
 
