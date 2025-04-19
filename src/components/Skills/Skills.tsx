@@ -8,7 +8,6 @@ import react from "../../public/react.png";
 import nodejs from "../../public/nodejs.png";
 import github from "../../public/github.png";
 import figma from "../../public/figma.png";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -20,7 +19,9 @@ export default function Skills() {
 
   return (
     <>
-      <h1 className={css.skills} id="skills">Skills</h1>
+      <h1 className={css.skills} id="skills">
+        Skills
+      </h1>
 
       <div className={css.skillsIcons}>
         <div data-aos="fade-left">

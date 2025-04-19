@@ -1,33 +1,26 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
-  .nav{
-    font-size: 30px;
-   
-  
-  }
+.nav {
+  font-size: 30px;
+}
 
+.nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav a:hover {
+  color: #8a2804;
+  transform: scale(2.5);
+}
+
+@media (max-width: 768px) {
   .nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin-right: 15px;
-    transition: all 0.3s ease;
-    position: relative;
+    color: #8a2804;
   }
-  
-  /* Эффект при наведении */
-  .nav a:hover {
-    color: #8a2804; /* Изменение цвета текста */
-    transform: scale(2.5); /* Увеличение */
-    
-  }
-
-  @media (max-width: 768px) {
-    .nav a{
-        color: #8a2804;
-    }
-    
-  }
-
-
+}
