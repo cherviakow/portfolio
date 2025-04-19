@@ -40,3 +40,10 @@
   transform: translateY(-8px); 
   box-shadow: 5px 30px 5px rgba(0, 0, 0, 0.253); 
 }
+
+@media(max-width:768px){
+    .skillsIcons img{
+        width: 45px;
+        height: 45px;
+    }
+}

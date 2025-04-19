@@ -23,4 +23,11 @@ html {
     
   }
 
+  @media (max-width: 768px) {
+    .nav a{
+        color: #8a2804;
+    }
+    
+  }
+
 
