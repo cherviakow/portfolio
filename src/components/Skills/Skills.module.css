@@ -37,6 +37,6 @@
 }
 
 .skillsIcons img:hover {
-  transform: translateY(-8px); /* поднимается вверх */
-  box-shadow: 5px 30px 5px rgba(0, 0, 0, 0.253); /* мягкая тень */
+  transform: translateY(-8px); 
+  box-shadow: 5px 30px 5px rgba(0, 0, 0, 0.253); 
 }

@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Contacts() {
   return (
     <>
-      <div className={css.contactsDiv}>
+      <div className={css.contactsDiv} id="contacts">
         <h1 className={css.contactsHead}>Contacts</h1>
 
         <ul className={css.contactsList}>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import css from "./Header.module.css";
+import Navigator from "../Navigator/Navigator";
 // import img1 from '../../public/img1.jpg';
 
 
@@ -22,7 +23,11 @@ export default function Header(){
 
     return (
         <>
-        <div className={css.header1}>
+        <div className={css.header1} id="home">
+          <div className={css.navigator}>
+            <Navigator/>
+          </div>
+          
           {/* <img className={css.image} src={img1} alt="" /> */}
 
           <div

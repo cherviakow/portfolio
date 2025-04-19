@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  .nav{
+    font-size: 30px;
+   
+  
+  }
+
+  .nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  /* Эффект при наведении */
+  .nav a:hover {
+    color: #8a2804; /* Изменение цвета текста */
+    transform: scale(2.5); /* Увеличение */
+    
+  }
+
+
