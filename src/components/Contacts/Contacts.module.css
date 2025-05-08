@@ -17,14 +17,14 @@
 }
 
 .email {
-  font-size: 35px;
-  margin-top: 25px;
+  font-size: 25px;
+  margin-top: 10px;
   color: aliceblue;
 }
 
 .LinkedInIcon {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   color: hsl(240, 59%, 55%);
 }
 .LinkedIn {
@@ -32,8 +32,8 @@
 }
 
 .instIcon {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   color: rgb(177, 65, 25);
 }
 .inst {
